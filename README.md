@@ -4,6 +4,8 @@
 
 Sisteme giriş için aşağıdaki isim ve şifreler kullanılabilir.
 
+src kısmında kodlar, ders1.rar içerisinde tüm proje dosyaları bulunmaktadır.
+
 İsim Şifre
 
 Ahmet 1234
