@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AliAsafPolat</string>
+    <string name="UserName">İsim Giriniz</string>
+    <string name="sifretxt">Sifre:</string>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuGecisEkrani">
+
+
+    <Button
+        android:id="@+id/btnTelefonDurum"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="#FFC107"
+        android:text="Durum Takibi"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLokasyonEkrani" />
+
+    <TextView
+            android:id="@+id/textViewHosgeldin"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="Hosgeldiniz!"
+            android:textSize="30sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+    <TextView
+        android:id="@+id/textViewSecim"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:text="İşlem Seçiniz!"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewHosgeldin"
+       />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ImageViewMenuKullaniciResmi"
+            app:layout_constraintTop_toBottomOf="@id/textViewHosgeldin"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/textViewSecim" />
+
+    <Button
+        android:id="@+id/btnKullaniciListele"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="24dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Kullanicilari Listele"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewSecim" />
+
+    <Button
+        android:id="@+id/btnBilgiGoster"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Kişi Bilgileri"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/btnKullaniciListele"
+        app:layout_constraintTop_toBottomOf="@+id/ImageViewMenuKullaniciResmi" />
+
+    <Button
+            android:id="@+id/btnMailAt"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Mail Gonder"
+            android:textSize="15sp"
+            app:layout_constraintTop_toBottomOf="@id/btnKullaniciListele"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+    <Button
+        android:id="@+id/btnSensorListele"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Sensor Listele"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/btnMailAt"
+        app:layout_constraintTop_toBottomOf="@id/btnBilgiGoster" />
+
+    <Button
+        android:id="@+id/btnNotEkrani"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="24dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Not Goruntule"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMailAt" />
+
+    <Button
+        android:id="@+id/btnSenkronSay"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="32dp"
+        android:backgroundTint="#FFC107"
+        android:text="Asenkron"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/btnNotEkrani"
+        app:layout_constraintTop_toBottomOf="@id/btnSensorListele" />
+
+    <Button
+        android:id="@+id/btnAlarmEkrani"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#FFC107"
+        android:text="Alarm Kur"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnNotEkrani" />
+
+    <Button
+        android:id="@+id/btnLokasyonEkrani"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="#FFC107"
+        android:text="Lokasyon"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/btnAlarmEkrani"
+        app:layout_constraintTop_toBottomOf="@+id/btnSenkronSay" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
