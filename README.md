@@ -1,6 +1,8 @@
 # Mobil-Programlama-Bonus
 
-Ödev 2'nin devamı olan bu kısımda 4 ayrı modül daha eklenmiştir...
+Ödev 2'nin devamı olan bu kısımda 4 ayrı modül daha eklenmiştir... Bunlar Alarm, Konum Bilgisi, Kullanıcı Hareket Takibi ve AsynTask modülleridir.
+
+Ödev 2 Link : https://github.com/AliAsafPolat/MobilProgramlama_HW2
 
 ->src kısmında kodlar, ders1.rar içerisinde tüm proje dosyaları bulunmaktadır.
 
