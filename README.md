@@ -1,28 +1,5 @@
-# Extended Calendar App
-This project is an extended version of the Calendar application. It has four extra different modules: Alarm, Location, Motion Tracking, and AsynTask module.
+# Agenda App
 
-Link : https://youtu.be/HBqI0u2jLUQ
+This project allow user to keep their notes and send his/her location to the friends etc. 
 
-To login the system, those usernames and passwords can be used.
-
-Username Passwd
-
-Ahmet 1234
-
-Asım 15060
-
-Mustafa 1234
-
-Mehmet 1234
-
-Asaf 1234
-
-Melisa 1234
-
-Dilara 1234
-
-Elif 1234
-
-Ezgi 1234
-
-Tuana 1234
+Detailed explaination can be found here : https://www.youtube.com/watch?v=HBqI0u2jLUQ&ab_channel=AliAsafPolat
