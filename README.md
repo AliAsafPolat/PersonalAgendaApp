@@ -1,4 +1,4 @@
-# Mobil-Programlama-Bonus
+# Extended Calendar App
 This project is extended version of Calendar application. It has four extra different modules: Alarm, Location, Motion Tracking and AsynTask module.
 
 Link : https://github.com/AliAsafPolat/MobilProgramlama_HW2
