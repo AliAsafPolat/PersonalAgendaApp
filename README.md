@@ -1,5 +1,5 @@
 # Extended Calendar App
-This project is extended version of Calendar application. It has four extra different modules: Alarm, Location, Motion Tracking and AsynTask module.
+This project is an extended version of the Calendar application. It has four extra different modules: Alarm, Location, Motion Tracking, and AsynTask module.
 
 Link : https://youtu.be/HBqI0u2jLUQ
 
