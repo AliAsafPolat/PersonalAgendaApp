@@ -1,16 +1,11 @@
 # Mobil-Programlama-Bonus
+This project is extended version of Calendar application. It has four extra different modules: Alarm, Location, Motion Tracking and AsynTask module.
 
-Ödev 2'nin devamı olan bu kısımda 4 ayrı modül daha eklenmiştir... Bunlar Alarm, Konum Bilgisi, Kullanıcı Hareket Takibi ve AsynTask modülleridir.
+Link : https://github.com/AliAsafPolat/MobilProgramlama_HW2
 
-Ödev 2 Link : https://github.com/AliAsafPolat/MobilProgramlama_HW2
+To login the system, those usernames and passwords can be used.
 
-->src kısmında kodlar, ders1.rar içerisinde tüm proje dosyaları bulunmaktadır.
-
-Sisteme giriş için aşağıdaki isim ve şifreler kullanılabilir.
-
-
-
-İsim Şifre
+Username Passwd
 
 Ahmet 1234
 
