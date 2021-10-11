@@ -1,7 +1,7 @@
 # Extended Calendar App
 This project is extended version of Calendar application. It has four extra different modules: Alarm, Location, Motion Tracking and AsynTask module.
 
-Link : https://github.com/AliAsafPolat/MobilProgramlama_HW2
+Link : https://youtu.be/HBqI0u2jLUQ
 
 To login the system, those usernames and passwords can be used.
 
